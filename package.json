@@ -6,7 +6,7 @@
 	"publisher": "serjrd",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/serjrd/coffeescript-indent"
+		"url": "https://github.com/serjrd/vscode-coffeescript-indent"
 	},
 	"engines": {
 		"vscode": "^1.21.0"

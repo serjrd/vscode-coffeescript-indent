@@ -9,7 +9,7 @@ function activate() {
   vscode.languages.setLanguageConfiguration('coffeescript', {
     indentationRules: {
       increaseIndentPattern:
-        /^\s*(if .*|else|else if .*|switch .*|when .*|default|try|catch\s?.*|.* \-\>|.* \=\>|.* \=|.* \[|.+:)\s*$/,
+        /^\s*(if .*|else|else if .*|switch .*|when .*|default|try|catch\s?.*|.*\-\>|.*\=\>|.*\=|.* \[|.+:)\s*$/,
       decreaseIndentPattern:
         /(else|when|catch)/,
       unIndentedLinePattern: /(else|when|catch)/
